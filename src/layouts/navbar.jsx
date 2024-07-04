@@ -42,6 +42,7 @@ const DesktopNav = () => (
         {item.title}
       </NavItem>
     ))}
+    <NavItem to="/plans">Plans</NavItem>
   </nav>
 );
 
@@ -67,6 +68,7 @@ const MobileNav = () => (
             {item.title}
           </NavItem>
         ))}
+        <NavItem to="/plans">Plans</NavItem>
       </nav>
     </SheetContent>
   </Sheet>
